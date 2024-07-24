@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+}
+.header .header-free-shipping {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background-color: #1084fc;
+  height: 35px;
+  align-items: center;
+}
+.header .header-free-shipping p {
+  font-weight: 900;
+}
+.header .header-free-shipping button {
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 30px;
+}
+.header .under-header-lists {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  font-size: 13px;
+  color: grey;
+  font-weight: 900;
+}
+.header .under-header-lists ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.header .under-header-lists .under-header-list-two {
+  margin-right: 200px;
+}
+.header .under-header-lists .under-header-list-one {
+  margin-left: 160px;
+}
+.header .header-border-top {
+  position: absolute;
+  width: 78.3726%;
+  border-top: 1px solid rgba(106, 107, 106, 0.116);
+  top: 75px;
+  margin-left: 50%;
+  translate: -50%;
+}
+.header .header-border-bottom {
+  position: absolute;
+  width: 100vw;
+  border-top: 1px solid rgba(106, 107, 106, 0.116);
+  top: 160px;
+  margin-left: 50%;
+  translate: -50%;
+}/*# sourceMappingURL=header.css.map */

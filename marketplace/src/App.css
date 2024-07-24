@@ -1,0 +1,9 @@
+@font-face{
+    font-family: "Teko";
+    src: local("Teko-VariableFont_wght"),
+    url("../src/fonts/Teko/Teko-VariableFont_wght.ttf") format("ttf");
+
+    font-family: "Teko-Bold";
+    src: local("Teko-Bold"),
+    url("../src/fonts/Teko/static/Teko-Bold.ttf") format("ttf");
+}

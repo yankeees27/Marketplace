@@ -1,0 +1,32 @@
+.product-list{
+    display:flex;
+    justify-content: flex-start;
+    ul{
+        list-style: none;
+        padding-left: 0;
+        border:1px solid rgba(106, 107, 106, 0.116);
+        font-weight: 900;
+        border-radius:10px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size:16px;
+        .electronics{
+            padding-top:20px;
+        }
+        .sport{
+            padding-bottom: 20px;
+        }
+        li{
+            display: flex;
+            padding-top:15px;
+            padding-bottom: 15px;
+            padding-left:20px;
+            padding-right:71px;
+            img{
+                margin-right:20px;
+            }
+        }
+        li:hover{
+            background-color: rgba(211, 205, 205, 0.212);
+        }
+    }
+}

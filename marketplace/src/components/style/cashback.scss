@@ -1,0 +1,47 @@
+.cashback{
+    display: flex; 
+    justify-content: center; 
+    margin-bottom:100px;
+    .cashback-box{
+        display: flex;
+        background-color: #89cff042;
+        width:79vw;
+        border-radius: 10px;
+        height:50px;
+        align-items: center;
+        justify-content: center;
+        h3{
+            margin-right:20px;
+            color:#053f5c;
+        }
+        .ten-percent{
+            color:#053f5cce;
+            font-weight: 900;
+            font-size: 14px;
+            margin-top:1px;
+        }
+        .sign-up-here{
+            color:#053f5cce;
+            font-size:14px;
+            margin-top:1px;
+            margin-left:8px;
+            margin-right:30px;
+        }
+        .discover-more{
+            background-color:transparent;
+            border:1px solid #053f5c;
+            border-radius: 10px;
+            padding:7px;
+            color:#053f5c;
+            font-weight: 900;
+            cursor:pointer;
+        }
+        
+    }
+    .cashback-border-bottom{
+        position: absolute;
+        width:78.3726%;
+        border-top:1px solid rgba(106, 107, 106, 0.116);
+        top:1900px;
+    }
+}

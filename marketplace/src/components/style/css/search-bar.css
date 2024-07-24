@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+}
+
+.under-header {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+.under-header h1 {
+  font-size: 32px;
+  color: orange;
+  margin-top: 10px;
+  margin-left: 198px;
+}
+.under-header .under-header-icons {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 460px;
+  align-items: center;
+  font-size: 12px;
+  gap: 50px;
+  margin-top: 25px;
+  font-weight: 900;
+}
+.under-header .under-header-icons .wishlist {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.under-header .under-header-icons .wishlist p {
+  opacity: 0.7;
+  margin-top: 1px;
+}
+.under-header .under-header-icons .profile {
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.under-header .under-header-icons .profile p {
+  margin-top: -3px;
+  margin-bottom: 6px;
+  opacity: 0.7;
+}/*# sourceMappingURL=search-bar.css.map */

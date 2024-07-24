@@ -1,0 +1,14 @@
+.main-page {
+  margin-top: 55px;
+  width: 86vw;
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 1000px;
+}
+.main-page .header-border-bottom {
+  position: absolute;
+  width: 78.3726%;
+  border-top: 1px solid rgba(106, 107, 106, 0.116);
+  top: 890px;
+}/*# sourceMappingURL=main-page.css.map */

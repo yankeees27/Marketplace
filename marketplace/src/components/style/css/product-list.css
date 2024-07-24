@@ -1,0 +1,32 @@
+.product-list {
+  display: flex;
+  justify-content: flex-start;
+}
+.product-list ul {
+  list-style: none;
+  padding-left: 0;
+  border: 1px solid rgba(106, 107, 106, 0.116);
+  font-weight: 900;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+.product-list ul .electronics {
+  padding-top: 20px;
+}
+.product-list ul .sport {
+  padding-bottom: 20px;
+}
+.product-list ul li {
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 71px;
+}
+.product-list ul li img {
+  margin-right: 20px;
+}
+.product-list ul li:hover {
+  background-color: rgba(211, 205, 205, 0.212);
+}/*# sourceMappingURL=product-list.css.map */

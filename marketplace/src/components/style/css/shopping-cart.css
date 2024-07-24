@@ -1,0 +1,18 @@
+.shopping-cart {
+  margin-top: -11px;
+  margin-right: -200px;
+}
+.shopping-cart .shopping-cart-counter {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  border: 2px red solid;
+  width: 17px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: 900;
+  top: 98px;
+  right: 255px;
+}/*# sourceMappingURL=shopping-cart.css.map */
