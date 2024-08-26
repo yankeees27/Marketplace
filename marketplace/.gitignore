@@ -16,3 +16,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
+# do a footer, add to cart function, where it displays the shopping cart number on top, when click on it go to cart page, 
+# fix images to white on freepik

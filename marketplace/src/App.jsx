@@ -5,6 +5,7 @@ import { MainPage } from './components/main-page/main-page';
 import { ProductListTwo } from './components/product-list-under-main-page/product-list';
 import { Qualities } from './components/Qualities/qualities';
 import { Cashback } from './components/cashback/cashback';
+import { Footer } from './components/footer/footer'; 
 
 //images
 import tvIMG from '../public/images/tv.png';
@@ -68,70 +69,10 @@ class App extends Component {
         />
         <Qualities />
         <Cashback />
+        <Footer />
       </div>
     );
   }
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
