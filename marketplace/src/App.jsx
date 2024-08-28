@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import { Header } from './components/header/header';
 import { MainPage } from './components/main-page/main-page';
@@ -57,22 +57,26 @@ const products = [
     store: "Store: Apple",
   }
 ]
+import { CountContext } from './context';
 
-class App extends Component {
-  render() {
+function App() {
+    const [count, setCount ] = useState(0);
     return (
       <div className="App">
+        <CountContext.Provider value={{count, setCount}}>
         <Header />
         <MainPage />
         <ProductListTwo 
         ammount={products}
         />
+        </CountContext.Provider>
+
         <Qualities />
         <Cashback />
         <Footer />
       </div>
-    );
+    )
   }
-}
+
 
 export default App;

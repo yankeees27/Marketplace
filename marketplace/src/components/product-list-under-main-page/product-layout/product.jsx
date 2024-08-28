@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import "../../style/css/product.css";
-
+import { CountContext } from '../../../context';
 
 export function Product ({pic, price, title, store})  {
     function visible(e) {
@@ -17,6 +17,11 @@ export function Product ({pic, price, title, store})  {
         e.currentTarget.querySelector('.button').style.visibility = 'hidden';
     }
 
+    const { count, setCount } = useContext(CountContext);
+    function handleClick() {
+        setCount(count + 1);
+    }
+
     return (
         <div onMouseEnter={visible} onMouseLeave={invisible} className='product'>
             <div className='products-in-row'>
@@ -25,7 +30,7 @@ export function Product ({pic, price, title, store})  {
                 <p className='product-title'>{title}</p>
                 <p className='product-store'>{store}</p>
                 <div className='button invisible'>
-                <button className='add-to-cart'>Add to Cart</button>
+                <button onClick={handleClick} className='add-to-cart'>Add to Cart</button>
                 </div>
             </div>
         </div>
