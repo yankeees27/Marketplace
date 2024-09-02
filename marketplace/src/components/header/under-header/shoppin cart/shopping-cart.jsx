@@ -4,7 +4,7 @@ import shoppingCart from '/home/yankes/marketplace/marketplace/src/svgs/shopping
 import { CountContext } from '../../../../context';
 
 export function ShoppingCart() {
-    const {count} = useContext(CountContext); //didnt use set count because its not necessary
+    const {count} = useContext(CountContext); //didnt use set count because i didnt do anything with it
     return (
         <div className='shopping-cart'>
             <img src={shoppingCart} alt='' />

@@ -6,6 +6,7 @@ import { ProductListTwo } from './components/product-list-under-main-page/produc
 import { Qualities } from './components/Qualities/qualities';
 import { Cashback } from './components/cashback/cashback';
 import { Footer } from './components/footer/footer'; 
+import { LoginPage } from './components/react practice -> login page/login-page';
 
 //images
 import tvIMG from '../public/images/tv.png';
@@ -74,6 +75,7 @@ function App() {
         <Qualities />
         <Cashback />
         <Footer />
+        <LoginPage />
       </div>
     )
   }

@@ -1,0 +1,50 @@
+.login-page {
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.login-page .login-page-inputs {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.login-page .login-page-inputs input {
+  border-radius: 12px;
+  height: 30px;
+  border: 2px solid black;
+  outline: none;
+}
+.login-page .login-page-inputs .login-page-input {
+  width: 300px;
+}
+.login-page .login-page-inputs .login-page-input-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-page .login-page-inputs .login-page-input-row input {
+  margin-left: 10px;
+}
+.login-page .login-page-inputs .login-page-input-row p {
+  margin-left: -15px;
+}
+.login-page button {
+  margin-top: 15px;
+  width: 300px;
+  height: 40px;
+  border-radius: 12px;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  border: none;
+  transition: 0.1s;
+  margin-bottom: 10px;
+}
+.login-page button:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}/*# sourceMappingURL=login-pgae.css.map */
