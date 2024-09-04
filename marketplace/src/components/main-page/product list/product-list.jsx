@@ -1,17 +1,17 @@
 import React from 'react'; 
 import '../../style/css/product-list.css';
-import electronicSVG from '/home/yankes/marketplace/marketplace/src/svgs/electronics.svg';
-import grocerySVG from '/home/yankes/marketplace/marketplace/src/svgs/grocery.svg';
-import furnitureSVG from '/home/yankes/marketplace/marketplace/src/svgs/furniture.svg';
-import fashionSVG from '/home/yankes/marketplace/marketplace/src/svgs/clothe.svg';
-import beautySVG from '/home/yankes/marketplace/marketplace/src/svgs/beauty.svg';
-import petsSVG from '/home/yankes/marketplace/marketplace/src/svgs/pets.svg';
-import kidsSVG from '/home/yankes/marketplace/marketplace/src/svgs/kids.svg';
-import toysSVG from '/home/yankes/marketplace/marketplace/src/svgs/toys.svg';
-import healthSVG from '/home/yankes/marketplace/marketplace/src/svgs/svg.png';
-import householdSVG from '/home/yankes/marketplace/marketplace/src/svgs/household.svg';
-import gardenSVG from '/home/yankes/marketplace/marketplace/src/svgs/housegarden.svg';
-import sportSVG from '/home/yankes/marketplace/marketplace/src/svgs/sport.svg';
+import electronicSVG from '../../../svgs/electronics.svg';
+import grocerySVG from '../../../svgs/grocery.svg';
+import furnitureSVG from '../../../svgs/furniture.svg';
+import fashionSVG from '../../../svgs/clothe.svg';
+import beautySVG from '../../../svgs/beauty.svg';
+import petsSVG from '../../../svgs/pets.svg';
+import kidsSVG from '../../../svgs/kids.svg';
+import toysSVG from '../../../svgs/toys.svg';
+import healthSVG from '../../../svgs/svg.png';
+import householdSVG from '../../../svgs/household.svg';
+import gardenSVG from '../../../svgs/housegarden.svg';
+import sportSVG from '../../../svgs/sport.svg';
 
 export function ProductList() {
     return (
