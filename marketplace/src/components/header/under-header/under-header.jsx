@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../style/css/search-bar.css';
 import { SearchBar } from '../under-header/search-bar/search-bar';
-import wishlist from '/home/yankes/marketplace/marketplace/src/svgs/heart-svgrepo-com.svg';
-import profile from '/home/yankes/marketplace/marketplace/src/svgs/profile-svgrepo-com.svg';
+import wishlist from '../../../svgs/heart-svgrepo-com.svg';
+import profile from '../../../svgs/profile-svgrepo-com.svg';
 import { ShoppingCart  } from '../under-header/shoppin cart/shopping-cart';
 
 export function UnderHeader() {

@@ -60,3 +60,6 @@ export function LoginPage() {
 // check about routing in react -> route to sign up page where you can create an account, and user input is going into the database
 
 //! solution for browser router is to set up babel loader.
+
+
+// make all paths local
