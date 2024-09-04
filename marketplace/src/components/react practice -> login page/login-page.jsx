@@ -62,4 +62,5 @@ export function LoginPage() {
 //! solution for browser router is to set up babel loader.
 
 
-// make all paths local
+// fix shopping cart path on shopping cart.jsx
+// react scripts version is to low

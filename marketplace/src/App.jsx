@@ -8,13 +8,14 @@ import { Cashback } from './components/cashback/cashback';
 import { Footer } from './components/footer/footer'; 
 import { LoginPage } from './components/react practice -> login page/login-page';
 
+
 //images
-import tvIMG from '../public/images/tv.png';
-import laptopIMG from '../public/images/laptop.jpg';
-import iphoneIMG from '../public/images/iphone.jpg';
-import cameraIMG from '../public/images/camera.jpg';
-import appleWatchIMG from '../public/images/appleWatch.jpg';
-import airpodsIMG from '../public/images/airpods.jpg';
+import tvIMG from './images/tv.png';
+import laptopIMG from './images/laptop.jpg';
+import iphoneIMG from './images/iphone.jpg';
+import cameraIMG from './images/camera.jpg';
+import appleWatchIMG from './images/appleWatch.jpg';
+import airpodsIMG from './images/airpods.jpg';
 
 
 //fonts

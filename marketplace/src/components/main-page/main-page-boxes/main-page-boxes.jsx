@@ -2,23 +2,7 @@ import React from 'react';
 import '../../style/css/main-page-boxes.css';
 
 export function MainPageBoxes() {
-    const countDownDate = new Date ("Jul 30, 2024, 20:00:00").getTime();
-    const x = setInterval(function() {
-        const now = new Date().getTime();
-        const distance = countDownDate - now;
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        document.getElementById("days").innerHTML = days + "d ";
-        document.getElementById("hours").innerHTML = hours + "h ";
-        document.getElementById("minutes").innerHTML = minutes + "m ";
-        document.getElementById("seconds").innerHTML = seconds + "s ";
-        if (distance < 0) {
-            clearInterval(x);
-            document.getElementById("countdown").innerHTML = "EXPIRED";
-        }
-    }, 1000);
+    
     return (
         <div className="main-page-boxes">
             <h1 className='main-page-boxes-h1'>New Products Everyday</h1>

@@ -2,14 +2,14 @@ import React from 'react';
 import '../style/css/footer.css';
 
 //images
-import telephone from '../../../public/images/telephone.png';
-import email from '../../../public/images/email.png';
-import headphones from '../../../public/images/headphones.png';
-import telegram from '../../../public/images/telegram.png';
-import viber from '../../../public/images/viber.png';
-import whatsapp from '../../../public/images/whatsapp.png';
-import googlePlay from '../../../public/images/googlePlay.png';
-import appleStore from '../../../public/images/appleStore.svg';
+import telephone from '../../images/telephone.png';
+import email from '../../images/email.png';
+import headphones from '../../images/headphones.png';
+import telegram from '../../images/telegram.png';
+import viber from '../../images/viber.png';
+import whatsapp from '../../images/whatsapp.png';
+import googlePlay from '../../images/googlePlay.png';
+import appleStore from '../../images/appleStore.svg';
 
 export function Footer() {
   return (
